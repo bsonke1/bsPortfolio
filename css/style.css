@@ -5,17 +5,21 @@
 .justify-content-end {
   -ms-flex-pack: end!important;
   justify-content: flex-end!important;
+  margin:2%;
   margin-left: auto;
   margin-right: 2%;
 }
 
-.navItem{
-    text-align: right !important;
+.nav-item{
+    margin:15px;
 }
 
 
 ul{
     font-family: Karla;
+}
+.navbar-brand{
+  margin-left: 2rem;
 }
 
 
