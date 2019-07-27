@@ -10,6 +10,15 @@
     object-fit: contain;
   } 
 
+.nav{
+    display: flex;
+}
+
+  .navItem{
+      display: inline;
+      text-align: right;
+  }
+
   .Work {
     width: 64px;
     height: 29px;
@@ -52,9 +61,29 @@
     color: #2c2c2c;
   }
 
-  .heroContainer{
-      background-image: url(../images/skyBlueGoldRotate.png);
-      background-position: center;
-      background-repeat: no-repeat;
+  .heroContainer {
+    background-image: url(../images/heroBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
+  #name{
+      font-family: Karla;
+      font-weight: bold;
+      font-size: 39px;
+      text-align: center;
   }
+
+  #digDesign {
+    font-family: Montserrat;
+    font-weight: 200;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 25%;
+}
