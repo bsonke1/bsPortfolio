@@ -100,6 +100,14 @@ img {
   margin-right:auto;
 }
 
+#desktopEnergyDisplay{
+
+}
+
+#mobileEnergyDisplay{
+  display: none;
+}
+
 .blossom {
   display: flex;
   flex-direction: row;
@@ -168,24 +176,33 @@ img {
 .blossom{
   display: flex;
   flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.energyDisplay{
-  position: relative;
-  width: 380px;
-  height: auto;
-}
-
-.energyText{
-  position: absolute;
-  bottom: 0;
-
+.workRightText {
+  display: inline-block;
+  width: 430px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 0;
 }
 
 
 .energy{
   display: flex;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.desktopEnergyDisplay{
+  display: none;
+}
+
+.mobileEnergyDisplay{
+  
+}
 }
