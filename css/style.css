@@ -77,6 +77,10 @@ button {
   margin-top:5px;
 }
 
+#displayEnergydiv{
+  margin-top:5px;
+}
+
 .wri {
   display: flex;
   flex-direction: row;
@@ -100,11 +104,11 @@ img {
   margin-right:auto;
 }
 
-#desktopEnergyDisplay{
+.desktopEnergyDisplay{
 
 }
 
-#mobileEnergyDisplay{
+.mobileEnergyDisplay{
   display: none;
 }
 
@@ -141,6 +145,9 @@ img {
 }
 
 
+
+
+
 @media only screen and (max-width: 600px) {
   #name{
     font-family: Karla;
@@ -162,6 +169,13 @@ img {
     display: flex;
     margin-right: auto;
     margin-left: auto;
+}
+
+#displayEnergyDiv {
+  margin-top: 5px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }
 
   .workLeftText {
@@ -203,6 +217,6 @@ img {
 }
 
 .mobileEnergyDisplay{
-  
+  display: 
 }
 }
