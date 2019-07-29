@@ -50,6 +50,8 @@ ul{
     margin-left: 25%;
 }
 
+
+
 .workSection{
   margin-bottom:100px;
 }
@@ -131,3 +133,59 @@ img {
 }
 
 
+@media only screen and (max-width: 600px) {
+  #name{
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .wri {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .display {
+    margin-top: 5px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+  .workLeftText {
+    display: inline-block;
+    width: 430px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.blossom{
+  display: flex;
+  flex-direction: column;
+}
+
+.energyDisplay{
+  position: relative;
+  width: 380px;
+  height: auto;
+}
+
+.energyText{
+  position: absolute;
+  bottom: 0;
+
+}
+
+
+.energy{
+  display: flex;
+  flex-direction: column;
+}
+
+}
