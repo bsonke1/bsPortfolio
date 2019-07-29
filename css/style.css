@@ -156,6 +156,10 @@ img {
     text-align: center;
   }
 
+  #digDesign{
+    font-size: 18px;
+  }
+
   .wri {
     display: flex;
     flex-direction: column;
