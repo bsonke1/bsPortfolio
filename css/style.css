@@ -56,6 +56,14 @@ ul{
   margin-bottom:100px;
 }
 
+.work {
+  font-family: Karla;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 70px;
+}
+
 .workHeader{
     font-Family: Karla;
 }
@@ -85,7 +93,7 @@ button {
   display: flex;
   flex-direction: row;
   margin-left: 15%;
-  margin-top: 130px;
+  margin-top: 32px;
   margin-right: auto;
 }
 
@@ -159,6 +167,14 @@ img {
   #digDesign{
     font-size: 18px;
   }
+
+  .work {
+    font-family: Karla;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 190px;
+    margin-bottom: -80px;
+}
 
   .wri {
     display: flex;
