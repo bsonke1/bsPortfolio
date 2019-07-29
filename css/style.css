@@ -171,13 +171,6 @@ img {
     margin-left: auto;
 }
 
-#displayEnergyDiv {
-  margin-top: 5px;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-}
-
   .workLeftText {
     display: inline-block;
     width: 430px;
@@ -217,6 +210,6 @@ img {
 }
 
 .mobileEnergyDisplay{
-  display: block;
+  display: flex;
 }
 }
