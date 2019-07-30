@@ -50,6 +50,13 @@ ul{
     margin-left: 25%;
 }
 
+.arrowcontainer{
+  display:none;
+}
+
+.arrow{
+  display:none;
+}
 
 
 .workSection{
@@ -84,9 +91,6 @@ button {
     font-size: 15px;
 }
 
-.display{
-  margin-top:5px;
-}
 
 #displayEnergydiv{
   margin-top:5px;
@@ -159,6 +163,7 @@ img {
 
 
 
+
 @media only screen and (max-width: 600px) {
   #name{
     font-family: Karla;
@@ -169,6 +174,31 @@ img {
 
   #digDesign{
     font-size: 18px;
+  }
+
+
+  #arrowImage{
+    height:30px;
+    width: 40px;
+  }
+  
+  .arrow{
+    position: absolute;
+    left: 48%;
+    right: 50%;
+    display: block;
+    margin-top: 45px;
+  }
+  
+  .bounceMe {
+    animation: bounceArrow 1.2s infinite;
+  }
+  
+  .arrowContainer{
+    position:relative;
+    display: block;
+    width: 100%;
+    height: 150px;
   }
 
   .work {
@@ -188,7 +218,6 @@ img {
   }
 
   .display {
-    margin-top: 5px;
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -250,6 +279,22 @@ button{
 
 .viewProject{
   width: 75%;
+}
+
+img{
+  width: 300px;
+}
+
+@keyframes bounceArrow {
+  from {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 7px;
+  }
+  to {
+    margin-top: 0px;
+  }
 }
 }
 
