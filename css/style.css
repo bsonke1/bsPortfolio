@@ -66,10 +66,12 @@ ul{
 
 .workHeader{
     font-Family: Karla;
+    font-size: 28px;
 }
 
 .workText{
     font-family: Montserrat;
+    font-size: 14px;
 }
 
 button {
@@ -79,6 +81,7 @@ button {
     padding: 8px;
     padding-right: 20px;
     padding-left: 20px;
+    font-size: 15px;
 }
 
 .display{
@@ -232,4 +235,21 @@ img {
 .mobileEnergyDisplay{
   display: flex;
 }
+
+.workHeader{
+  font-size: 22px;
 }
+
+.workText{
+  font-size: 12px;
+}
+
+button{
+  font-size: 13px;
+}
+
+.viewProject{
+  width: 75%;
+}
+}
+
