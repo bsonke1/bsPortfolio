@@ -131,7 +131,7 @@ img {
   display: flex;
   flex-direction: row;
   margin-left: 15%;
-  margin-top: 190px;
+  margin-top: 130px;
   margin-right: auto;
   align-items: baseline;
 }
@@ -186,8 +186,8 @@ img {
   
   .arrow{
     position: absolute;
-    left: 48%;
-    right: 50%;
+    left: 46%;
+    right: auto;
     display: block;
     margin-top: 45px;
   }
@@ -207,7 +207,7 @@ img {
     font-family: Karla;
     font-size: 28px;
     text-align: center;
-    margin-top: 190px;
+    margin-top: 0px;
     margin-bottom: -80px;
 }
 
