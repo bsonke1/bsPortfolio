@@ -126,17 +126,15 @@ ul{
 
 .workContainer1{
   display: flex;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
+  flex-direction: column;
+ 
   
 }
 
 .workContainer2{
   display: flex;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
+  flex-direction: column;
+}
 }
 
 /*END HW 18 Work Section*/
