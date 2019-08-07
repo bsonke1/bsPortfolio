@@ -59,6 +59,170 @@ ul{
 }
 
 
+
+
+/*start Homework 18 Work Section css*/
+
+.btn{
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  background-color: #EFE9A4;
+  border-color: #EFE9A4;
+  color:black;
+  
+}
+
+.workHeader{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.card{
+  min-width: 360px !important;
+}
+
+.cardContent{
+  text-align: center !important;
+}
+
+.workCard {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 0;
+  padding: 1.5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 550px;
+}
+
+.workTitle{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+}
+
+.workText{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.energyScreen{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.logoScreen{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.logoBody{
+  padding-top: 50px;
+}
+
+.workContainer1{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.workContainer2{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*END HW 18 Work Section*/
+
+
+@media only screen and (max-width: 600px) {
+  #name{
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #digDesign{
+    font-size: 18px;
+  }
+
+
+  #arrowImage{
+    height:30px;
+    width: 40px;
+  }
+  
+  .arrow{
+    position: absolute;
+    left: 46%;
+    right: auto;
+    display: block;
+    margin-top: 45px;
+  }
+  
+  .bounceMe {
+    animation: bounceArrow 1.2s infinite;
+  }
+  
+  .arrowContainer{
+    position:relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+  }
+
+  @keyframes bounceArrow {
+    from {
+      margin-top: 0px;
+    }
+    50% {
+      margin-top: 7px;
+    }
+    to {
+      margin-top: 0px;
+    }
+  }
+
+
+  /*HW 18 Work Mobile START*/
+    .workContainer1{
+      display:flex;
+      flex-direction: column;
+  }
+
+  .workContainer2{
+      display:flex;
+      flex-direction: column;
+  }
+
+  .workTitle{
+      font-size: 20px;
+  }
+
+  .workText{
+      font-size:14px;
+  }
+}
+
+/*HW 18 Work Mobile END/*
+
+
+
+
+
+
+
+/*Below: Homework 17 Work Section CSS*/
+
+/*
 .workSection{
   margin-bottom:100px;
 }
@@ -164,47 +328,15 @@ img {
 .workTextContainer{
   display:flex;
 }
+*/
 
 
 
 
-@media only screen and (max-width: 600px) {
-  #name{
-    font-family: Karla;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-  }
 
-  #digDesign{
-    font-size: 18px;
-  }
+/*Below: Homework 17 Work CSS, MOBILE*/
 
-
-  #arrowImage{
-    height:30px;
-    width: 40px;
-  }
-  
-  .arrow{
-    position: absolute;
-    left: 46%;
-    right: auto;
-    display: block;
-    margin-top: 45px;
-  }
-  
-  .bounceMe {
-    animation: bounceArrow 1.2s infinite;
-  }
-  
-  .arrowContainer{
-    position:relative;
-    display: block;
-    width: 100%;
-    height: 150px;
-  }
-
+/*
   .work {
     font-family: Karla;
     font-size: 28px;
@@ -289,17 +421,7 @@ button{
 img{
   width: 300px;
 }
+*/
 
-@keyframes bounceArrow {
-  from {
-    margin-top: 0px;
-  }
-  50% {
-    margin-top: 7px;
-  }
-  to {
-    margin-top: 0px;
-  }
-}
-}
+
 
