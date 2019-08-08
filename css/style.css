@@ -84,9 +84,6 @@ ul{
   min-width: 360px !important;
 }
 
-.cardContent{
-  text-align: center !important;
-}
 
 .workCard {
   display: flex;
@@ -97,7 +94,7 @@ ul{
   margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
-  height: 550px;
+  max-width: 1000px;
 }
 
 .workTitle{
@@ -110,7 +107,9 @@ ul{
   font-weight: 300;
 }
 
-
+.card-body{
+  margin-top: auto;
+}
 
 
 
@@ -119,13 +118,11 @@ ul{
 }
 
 .rightAlignCard{
-  max-width: 500px;
   display: flex;
   flex-direction: row;
 }
 
 .leftAlignCard{
-  max-width: 500px;
   display: flex;
   flex-direction: row;
 }
@@ -138,10 +135,8 @@ ul{
 }
 
 .energyImg{
-  padding-top: 35px;
-  padding-bottom: 35px;
-  height: 370px;
-  width: 380px;
+  height: auto;
+  width: 390px;
 }
 
 .blossomImg{
@@ -152,6 +147,8 @@ ul{
 .logoImg{
   height: 130px;
   width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /*END HW 18 Work Section*/
