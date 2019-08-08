@@ -127,7 +127,13 @@ ul{
   flex-direction: row;
 }
 
+.mobileImage{
+  display:none;
+}
 
+.desktopImage{
+
+}
 
 .wriImg{
   height: 370px;
@@ -213,7 +219,17 @@ ul{
   .workText{
       font-size:14px;
   }
+
+  .desktopImage{
+    display:none
+  }
+  
+  .mobileImage{
+    display: block;
+  }
 }
+
+
 
 /*HW 18 Work Mobile END/*
 
