@@ -110,31 +110,48 @@ ul{
   font-weight: 300;
 }
 
-.energyScreen{
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
 
-.logoScreen{
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+
+
 
 .logoBody{
   padding-top: 50px;
 }
 
-.workContainer1{
+.rightAlignCard{
+  max-width: 500px;
   display: flex;
-  flex-direction: column;
- 
-  
+  flex-direction: row;
 }
 
-.workContainer2{
+.leftAlignCard{
+  max-width: 500px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
+
+
+
+.wriImg{
+  height: 370px;
+  width: 390px;
+}
+
+.energyImg{
+  padding-top: 35px;
+  padding-bottom: 35px;
+  height: 370px;
+  width: 380px;
+}
+
+.blossomImg{
+  height: 370px;
+  width: auto;
+}
+
+.logoImg{
+  height: 130px;
+  width: auto;
 }
 
 /*END HW 18 Work Section*/
@@ -191,15 +208,6 @@ ul{
 
 
   /*HW 18 Work Mobile START*/
-    .workContainer1{
-      display:flex;
-      flex-direction: column;
-  }
-
-  .workContainer2{
-      display:flex;
-      flex-direction: column;
-  }
 
   .workTitle{
       font-size: 20px;
