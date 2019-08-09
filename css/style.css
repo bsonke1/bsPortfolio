@@ -193,10 +193,6 @@ color:black !important;
   display:none;
 }
 
-.desktopImage{
-
-}
-
 .wriImg{
   margin-left: 8%;
 }
@@ -213,6 +209,7 @@ color:black !important;
 #logo{
   width:30%;
 }
+
 .logoImg{
   margin-left: 2%;
   margin-top: auto;
@@ -318,5 +315,4 @@ color:black !important;
   margin-right:0;
 
 }
-
-
+}
