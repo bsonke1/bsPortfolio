@@ -50,14 +50,43 @@ ul{
     margin-left: 25%;
 }
 
-.arrowcontainer{
-  display:none;
+
+
+#arrowImage{
+  height:30px;
+  width: 40px;
 }
 
 .arrow{
-  display:none;
+  position: absolute;
+  left: 46%;
+  right: auto;
+  display: block;
+  margin-top: 0px;
 }
 
+.bounceMe {
+  animation: bounceArrow 1.2s infinite;
+}
+
+.arrowContainer{
+  position:relative;
+  display: block;
+  width: 100%;
+  height: 0px;
+}
+
+@keyframes bounceArrow {
+  from {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 7px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
 
 
 
@@ -82,6 +111,8 @@ ul{
 
 .card{
   min-width: 360px !important;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.125) !important;
 }
 
 
@@ -92,6 +123,8 @@ ul{
   margin-right: auto;
   margin-left: auto;
   max-width: 1000px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 .workTitle{
@@ -115,10 +148,11 @@ ul{
 
 .rightCardBody{
   text-align: right;
+  margin-right: 5%;
 }
 
 .leftCardBody{
-  margin-left: 4%;
+  margin-left: 5%;
 }
 
 .rightAlignCard{
@@ -142,16 +176,19 @@ ul{
 .wriImg{
   height: 370px;
   width: 390px;
+  margin-left: 5%;
 }
 
 .energyImg{
   height: auto;
   width: 390px;
+  margin-right: 5%;
 }
 
 .blossomImg{
   height: 370px;
   width: auto;
+  margin-left: 11%;
 }
 
 .logoImg{
@@ -159,6 +196,7 @@ ul{
   width: auto;
   margin-top: auto;
   margin-bottom: auto;
+  margin-right:15%;
 }
 
 /*END HW 18 Work Section*/
