@@ -1,3 +1,5 @@
+/*NavBar Code START*/
+
 .bg-light{
     background-color:white !important;
 }
@@ -38,6 +40,10 @@ color:black !important;
   color: goldenrod !important;
 }
 
+
+
+
+/*Jumbotron Code START*/
 
 .heroContainer {
   background-image: url(../images/heroBackground.png);
@@ -105,6 +111,9 @@ color:black !important;
 }
 
 
+
+
+/*Work Section Code START*/
 
 .btn{
   font-family: 'Karla', sans-serif;
