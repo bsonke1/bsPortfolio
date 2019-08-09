@@ -1,34 +1,10 @@
-/*.bg-light{
+.bg-light{
     background-color:white !important;
 }
 
-.justify-content-end {
-  -ms-flex-pack: end!important;
-  justify-content: flex-end!important;
-  margin:2%;
-  margin-left: auto;
-  margin-right: 2%;
-}
-
-.nav-item{
-    margin:15px;
-}
-
-
-ul{
-    font-family: Karla;
-}
-.navbar-brand{
-  margin-left: 2rem;
-}*/
-
-
-
-
 .navbar-brand{
   margin-left: 2rem;
 }
-
 
 .justify-content-end {
 -ms-flex-pack: end!important;
@@ -129,8 +105,6 @@ color:black !important;
 }
 
 
-
-/*start Homework 18 Work Section css*/
 
 .btn{
   font-family: 'Karla', sans-serif;
@@ -239,8 +213,9 @@ color:black !important;
   margin-right:15%;
 }
 
-/*END HW 18 Work Section*/
 
+
+/*Mobile*/
 
 @media only screen and (max-width: 600px) {
   #name{
@@ -265,18 +240,11 @@ color:black !important;
     left: 46%;
     right: auto;
     display: block;
-    margin-top: 45px;
+    margin-top: 240px;
   }
   
   .bounceMe {
     animation: bounceArrow 1.2s infinite;
-  }
-  
-  .arrowContainer{
-    position:relative;
-    display: block;
-    width: 100%;
-    height: 150px;
   }
 
   @keyframes bounceArrow {
@@ -291,8 +259,15 @@ color:black !important;
     }
   }
 
+  .workHeader{
+    margin-top: 100px;
+  }
 
-  /*HW 18 Work Mobile START*/
+  .card{
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.125);
+  }
 
   .workTitle{
       font-size: 20px;
@@ -309,220 +284,8 @@ color:black !important;
   .mobileImage{
     display: block;
   }
+
+
 }
-
-
-
-/*HW 18 Work Mobile END/*
-
-
-
-
-
-
-
-/*Below: Homework 17 Work Section CSS*/
-
-/*
-.workSection{
-  margin-bottom:100px;
-}
-
-.work {
-  font-family: Karla;
-  font-size: 35px;
-  text-align: center;
-  margin-top: 130px;
-  margin-bottom: 70px;
-}
-
-.workHeader{
-    font-Family: Karla;
-    font-size: 28px;
-}
-
-.workText{
-    font-family: Montserrat;
-    font-size: 14px;
-}
-
-button {
-    font-family: Karla;
-    background-color: #EFE9A4;
-    border: none;
-    padding: 8px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 15px;
-}
-
-
-#displayEnergydiv{
-  margin-top:5px;
-}
-
-.wri {
-  display: flex;
-  flex-direction: row;
-  margin-left: 15%;
-  margin-top: 32px;
-  margin-right: auto;
-}
-
-img {
-    border-style: none;
-    width: 380px;
-    margin: 0;
-    
-}
-
-.energy{
-  display: flex;
-  flex-direction: row;
-  margin-left: 15%;
-  margin-top: 130px;
-  margin-right:auto;
-}
-
-.desktopEnergyDisplay{
-  display: block;
-}
-
-.mobileEnergyDisplay{
-  display: none;
-}
-
-.blossom {
-  display: flex;
-  flex-direction: row;
-  margin-left: 15%;
-  margin-top: 130px;
-  margin-right: auto;
-  align-items: baseline;
-}
-
-.workLeftText {
-  display: inline-block;
-  width: 430px;
-  margin-top: 180px;
-  padding-left: 2%;
-  margin-left: 7%;
-  margin-right: 2%;
-}
-
-.workRightText {
-  text-align: right;
-  display: inline-block;
-  width: 430px;
-  height: inherit;
-  margin-top: 165px;
-  padding-right: 6%;
-  margin-right: 5%;
-  
-}
-
-#blossomText{
-  padding-left: 3%;
-  margin-left: 7%;
-}
-
-.workTextContainer{
-  display:flex;
-}
-*/
-
-
-
-
-
-/*Below: Homework 17 Work CSS, MOBILE*/
-
-/*
-  .work {
-    font-family: Karla;
-    font-size: 28px;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: -80px;
-}
-
-  .wri {
-    display: flex;
-    flex-direction: column;
-    margin-top: 130px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .display {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-  .workLeftText {
-    display: inline-block;
-    width: 430px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-right: 2%;
-}
-
-.blossom{
-  display: flex;
-  flex-direction: column;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.workRightText {
-  display: inline-block;
-  width: 430px;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding: 0;
-}
-
-
-.energy{
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.desktopEnergyDisplay{
-  display: none;
-}
-
-.mobileEnergyDisplay{
-  display: flex;
-}
-
-.workHeader{
-  font-size: 22px;
-}
-
-.workText{
-  font-size: 12px;
-}
-
-button{
-  font-size: 13px;
-}
-
-.viewProject{
-  width: 75%;
-}
-
-img{
-  width: 300px;
-}
-*/
-
 
 
