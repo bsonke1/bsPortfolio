@@ -87,9 +87,6 @@ ul{
 
 .workCard {
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 0;
-  padding: 1.5%;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: auto;
@@ -112,9 +109,16 @@ ul{
 }
 
 
-
 .logoBody{
   padding-top: 50px;
+}
+
+.rightCardBody{
+  text-align: right;
+}
+
+.leftCardBody{
+  margin-left: 4%;
 }
 
 .rightAlignCard{
