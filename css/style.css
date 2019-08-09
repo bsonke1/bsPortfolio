@@ -1,4 +1,4 @@
-.bg-light{
+/*.bg-light{
     background-color:white !important;
 }
 
@@ -20,6 +20,46 @@ ul{
 }
 .navbar-brand{
   margin-left: 2rem;
+}*/
+
+
+
+
+.navbar-brand{
+  margin-left: 2rem;
+}
+
+
+.justify-content-end {
+-ms-flex-pack: end!important;
+justify-content: flex-end!important;
+margin:2%;
+margin-left: auto;
+margin-right: 2%;
+}
+
+.nav-item{
+  margin:15px;
+  
+}
+
+
+.navbar-nav{
+  font-family: Karla;
+  
+}
+
+.nav-link{
+color:black !important;
+}
+
+.active{
+  font-style: strong !important;
+  
+}
+
+#mainactive{
+  color: goldenrod !important;
 }
 
 
@@ -27,8 +67,8 @@ ul{
   background-image: url(../images/heroBackground.png);
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 170px;
-  padding-bottom: 170px;
+  padding-top: 130px;
+  padding-bottom: 130px;
   margin-bottom: 25px;
   margin-top: 25px;
   margin-left: 20%;
@@ -53,16 +93,16 @@ ul{
 
 
 #arrowImage{
-  height:30px;
-  width: 40px;
+  height: 40px;
+  width: 60px;
 }
 
 .arrow{
   position: absolute;
-  left: 46%;
+  left: 48%;
   right: auto;
   display: block;
-  margin-top: 0px;
+  margin-top: 170px;
 }
 
 .bounceMe {
@@ -81,7 +121,7 @@ ul{
     margin-top: 0px;
   }
   50% {
-    margin-top: 7px;
+    margin-top: 10px;
   }
   to {
     margin-top: 0px;
@@ -105,7 +145,7 @@ ul{
   font-family: 'Karla', sans-serif;
   font-weight: 700;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 140px;
   padding-bottom: 15px;
 }
 
