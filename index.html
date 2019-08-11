@@ -11,37 +11,34 @@
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Montserrat:300&display=swap" rel="stylesheet">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<body data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="index.html">B.Sonke</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
              </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="d-flex justify-content-end">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav nav nav-pills">
                         <li class="nav-item active">
-                            <a class="nav-link" id="mainactive" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
                           <a class="nav-link" href="#work">Work</a>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="#aboutSection">About</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
     </nav>
-    <section>
-    <div class="heroContainer" id= "section1">
+
+    
+    <section class="heroContainer" id="hero">
         <div id="headerName">Brooke Sonke</div>
         <div id="digDesign">Digital Design</div>
     
@@ -53,7 +50,7 @@
     </section>
 
   
-    <div id="work"></div>
+    <section id="work">
     <h1 class="workHeader">Work</h1>
     <div class="card cardContent workCard leftAlignCard" id="topWorkCard">
       <img src="images/wriDisplay.png" class="card-img-top wriImg" alt="...">
@@ -89,15 +86,17 @@
       </div>
         <img src="images/finalBlossomLogo.png" class="card-img-top logoImg desktopImage" id="logo" alt="...">
     </div>
+  </section>
 
     <div id="aboutSection"></div>
-    <div class="card cardContent about" style="width: 18rem;">
+
+    <section class="card cardContent about" style="width: 18rem;">
       <h3 class="card-title aboutTitle" >About</h3>
       <img src="images/headshotPhoto.png" class="card-img-top headshot" alt="...">
       <div class="card-body">
         <h6 class="aboutSubTitle">Brooke Sonke, UX/UI Designer</h6>
         <p class="card-text aboutText">Talk human-centered design to me.       </p>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Learn More</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg" >Learn More</button>
 
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
@@ -116,16 +115,19 @@
                 With gratitude, I get to use my skills and passions to creatively translate user needs into delightful, human-centered products.  </p>
             </div>  
         </section> 
-        <a href="#" class="btn btn-primary modalBtn">Close</a> 
+        <!--<a href="#" class="btn btn-primary modalBtn">Close</a> -->
     </div>
   </div>
-</div>
-<div id="contact"></div>
+</section>
+<section id="contact"></section>
 
       </div>
     </div>
   </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+   
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>

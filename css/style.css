@@ -25,9 +25,12 @@ margin-right: 2%;
 
 .nav-item{
   margin:15px;
-  
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: goldenrod !important;
+  background-color: transparent;
+}
 
 
 .navbar-nav{
@@ -36,17 +39,10 @@ margin-right: 2%;
 }
 
 .nav-link{
-color:black !important;
+  color:lightgray !important;
 }
 
-.active{
-  font-style: strong !important;
-  
-}
-
-#mainactive{
-  color: goldenrod !important;
-}
+li.active a:hover { color: black !important; background-color: white; }
 
 
 
