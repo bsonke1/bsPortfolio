@@ -39,7 +39,7 @@ margin-right: 2%;
 }
 
 .nav-link{
-  color:lightgray !important;
+  color:gray !important;
 }
 
 li.active a:hover { color: black !important; background-color: white; }
@@ -130,12 +130,14 @@ li.active a:hover { color: black !important; background-color: white; }
   
 }
 
+#work{
+  margin-top:200px;
+}
+
 .workHeader{
   font-family: 'Karla', sans-serif;
   font-weight: 700;
   text-align: center;
-  padding-top: 90px;
-  margin-top: 70px;
 }
 
 .card{
@@ -148,7 +150,7 @@ li.active a:hover { color: black !important; background-color: white; }
 .workCard {
   display: flex;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   margin-right: auto;
   margin-left: auto;
   max-width: 1000px;
@@ -260,10 +262,12 @@ li.active a:hover { color: black !important; background-color: white; }
   margin-left:auto;
   margin-right: auto;
   margin-top: 120px;
-  margin-bottom: 120px;
+  margin-bottom: 0;
   width: 75% !important;
   text-align:center;
 }
+
+
 
 /*Modal Content START*/
 
@@ -326,6 +330,110 @@ margin-top: 25px;
 margin-bottom: 25px;
 }
 
+.contactHeader{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.form-group{
+  font-family: 'Karla', sans-serif;
+}
+
+.contactBtn{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.contactContainer{
+  margin-top:100px;
+  margin-bottom: 100px;
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.boom:hover {
+  color: #EFE9A4;
+  border: #EFE9A4;
+  opacity: 0;
+  -webkit-transform: scale(2, 2);
+  -moz-transform: scale(2, 2);
+  transform: scale(2, 2);
+}
+
+.fun {
+  width: 100px;
+  height: 100px;
+  color: #000000;
+  background-color: #EFE9A4;
+  font-family: Karla;
+  text-decoration: none;
+  font-size: 1.8em;
+  border: 2px #ffffff solid;
+  margin: 10px 0 0 5px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 20px;
+  margin-right:auto;
+  margin-left: auto;
+}
+
+.btnContainer{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:10px;
+  margin-bottom: 80px;
+}
+
+
+
+#linkedin{
+  display: block;
+}
+
+#linkedinIcon{
+  width:25px;
+  height:25px;
+}
+
+#behance{
+  display: block;
+}
+
+#behanceIcon{
+  width:25px;
+  height:25px;
+}
+
+#dribbble{
+  display: block;
+}
+
+#dribbbleIcon{
+  width:25px;
+  height:25px;
+}
+
+.fixed {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  padding-right: 2%;
+}
+
+.fixedIcons{
+  margin: 3px;
+}
+
+
+
 
 /*Mobile*/
 
@@ -372,6 +480,7 @@ margin-bottom: 25px;
   .bounceMe {
     animation: bounceArrow 1.2s infinite;
   }
+
 
   @keyframes bounceArrow {
     from {
@@ -449,4 +558,7 @@ margin-bottom: 25px;
   margin-top: 2rem;
 }
 
+.contactHeader{
+  font-size: 30px;
+}
 }
