@@ -421,6 +421,15 @@ margin-bottom: 25px;
   height:25px;
 }
 
+#resume{
+  display:block;
+}
+
+#resumeicon{
+  width:25px;
+  height:25px;
+}
+
 .fixed {
   position: fixed;
   top: 50%;
