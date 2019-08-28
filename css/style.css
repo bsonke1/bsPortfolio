@@ -130,7 +130,7 @@ li.active a:hover { color: black !important; background-color: white; }
   
 }
 
-#btn-disabled{
+.btn-disabled{
   background-color: lightgrey;
   border-color: grey;
   color: grey;
