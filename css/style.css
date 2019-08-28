@@ -576,4 +576,129 @@ margin-bottom: 25px;
 .contactHeader{
   font-size: 30px;
 }
+
+@media only screen and (max-width: 480px) {
+  .navbar{
+    height: 70px;
+  }
+
+  .navbar-collapse{
+    text-align:right;
+    background-color:lightgray;
+    margin-left: 60%;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .heroContainer{
+    margin-top: 100px;
+  }
+  #name{
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #digDesign{
+    font-size: 18px;
+  }
+
+
+  #arrowImage{
+    height:30px;
+    width: 40px;
+  }
+  
+  .arrow{
+    position: absolute;
+    left: 46%;
+    right: auto;
+    display: block;
+    margin-top: 200px;
+  }
+  
+  .bounceMe {
+    animation: bounceArrow 1.2s infinite;
+  }
+
+
+  @keyframes bounceArrow {
+    from {
+      margin-top: 0px;
+    }
+    50% {
+      margin-top: 7px;
+    }
+    to {
+      margin-top: 0px;
+    }
+  }
+
+  #work{
+    margin-top: 100px;
+  }
+
+  .workHeader{
+    margin-top: 130px;
+    padding-top: 70px;
+    font-size: 30px;
+  }
+
+  .card{
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.125);
+    max-width: 65%;
+  }
+
+  .rightCardBody{
+    text-align:center;
+  }
+
+
+  .workTitle{
+      font-size: 20px;
+  }
+
+  .workText{
+      font-size:14px;
+  }
+
+  .desktopImage{
+    display:none
+  }
+  
+  .mobileImage{
+    display: block;
+  }
+  .card-img-top {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.workCard{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.rightCardBody{
+  margin-right:0;
+
+}
+
+
+.headshot{
+  width: 200px;
+}
+
+.aboutTitle{
+  margin-top: 2rem;
+}
+
+.contactHeader{
+  font-size: 30px;
+}
 }
