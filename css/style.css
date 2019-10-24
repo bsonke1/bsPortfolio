@@ -215,13 +215,15 @@ li.active a:hover { color: black !important; background-color: white; }
   margin-left: 8%;
 }
 
+
 .energyImg{
   height: auto;
   margin-right: 5%;
 }
 
 .blossomImg{
-  margin-left: 8%;
+  /*margin-left: 8%;*/
+  margin-right: 8%;
 }
 
 #logo{
@@ -363,40 +365,7 @@ margin-bottom: 25px;
   margin-right:auto;
 }
 
-.boom:hover {
-  color: #EFE9A4;
-  border: #EFE9A4;
-  opacity: 0;
-  -webkit-transform: scale(2, 2);
-  -moz-transform: scale(2, 2);
-  transform: scale(2, 2);
-}
 
-.fun {
-  width: 100px;
-  height: 100px;
-  color: #000000;
-  background-color: #EFE9A4;
-  font-family: Karla;
-  text-decoration: none;
-  font-size: 1.8em;
-  border: 2px #ffffff solid;
-  margin: 10px 0 0 5px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
-  font-size: 20px;
-  margin-right:auto;
-  margin-left: auto;
-}
-
-.btnContainer{
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top:10px;
-  margin-bottom: 80px;
-}
 
 
 
@@ -575,6 +544,10 @@ margin-bottom: 25px;
 
 .contactHeader{
   font-size: 30px;
+} 
+
+.fixedIcons{
+  margin:6px;
 }
 
 }
